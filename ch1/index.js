@@ -9,7 +9,6 @@
 //   console.log(text);
 // });
 
-
 //******************* */ Example for understanding live server issue and using nodemon ***************************
 // const express = require("express");
 
@@ -18,6 +17,31 @@
 // const server = express();
 // server.listen(8000);
 
+// ********************   npm update, outdate, (^, ~, *) *******************
 
+// HOME WORK
 
-// ********************   npm update, outdate, (^, ~, *) ********************
+// **************************** HOW TO USE COMMAND LINE ARGUMENT ***************************
+// const arguments = process.argv;
+
+// const sum = (a, b) => {
+//   console.log(a, b);
+//   return parseInt(a) + parseInt(b);
+// };
+
+// console.log(sum(arguments[2], arguments[3]));
+
+// **************************** LETS EXPLORING OS MODULE ***************************
+// const os = require("os");
+
+// // const details = os.cpus();
+// const details = os.hostname();
+
+// console.log(details);
+
+// **************************** RUNNING SYSTEM COMMAND IN JS FILE, AN STORE ITS OUTPUT ***************************
+
+// const execSync = require("child_process").execSync;
+
+// const output = execSync("dir", { encoding: "utf-8" });
+// console.log("Output was:\n", output);
