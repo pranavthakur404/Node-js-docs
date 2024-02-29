@@ -1,0 +1,5 @@
+Node.js was initially written by Ryan Dahl in 2009,[10] about 13 years after the introduction of the first server-side JavaScript environment, Netscape's LiveWire Pro Web.[11] The initial release supported only Linux and Mac OS X. Its development and maintenance was led by Dahl and later sponsored by Joyent.[12]
+
+Dahl criticized the limited capability of Apache HTTP Server to handle many (10,000+) concurrent connections, as well as the dominant programming paradigm of sequential programming, in which applications could block entire processes or cause the creation of multiple execution stacks for simultaneous connections.[13]
+
+Dahl demonstrated the project at the inaugural European JSConf on November 8, 2009.[14][15][16] Node.js combined Google's V8 JavaScript engine, an event loop, and a low-level I/O API.[17]
